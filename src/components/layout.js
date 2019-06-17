@@ -3,14 +3,15 @@ import PropTypes from 'prop-types'
 // import styled from 'styled-components'
 import { createGlobalStyle } from 'styled-components'
 import Navbar from '../components/globals/navbar/navbar'
+import Footer from '../components/globals/Footer'
 // import '../styles/sass/layout.scss'
 
 const Layout = ({ children }) => (
   <div>
-    <GlobalStyle />
+    <React.Fragment />
     <Navbar />
     {children}
-
+    <Footer />
   </div>
 )
 
